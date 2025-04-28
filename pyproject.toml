@@ -42,7 +42,7 @@ dependencies = [
 ]
 
 [project.urls]
-Home = "https://github.com/connorferster/sea_starterkit"
+Home = "https://github.com/structuralpython/structural_starterkit"
 
 [project.scripts]
-pfse_verify = "sea_starterkit.__main__:check_installs"
+starterkit_verify = "structural_starterkit.__main__:check_installs"
