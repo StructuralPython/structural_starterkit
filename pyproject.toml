@@ -1,0 +1,48 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "structural_starterkit"
+authors = [{name = "Connor Ferster", email = "connor@structuralpython.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = ["version", "description"]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "openpyxl",
+    "lxml",
+    "shapely>=2.0.0",
+    "matplotlib",
+    "plotly",
+    "sectionproperties>=3.5.0",
+    "concreteproperties>=0.6.4",
+    "pycba>=0.5.2",
+    "PyNiteFEA>=1.0.1",
+    "scipy",
+    "handcalcs",
+    "more-itertools",
+    "pynite_plotly",
+    "forallpeople",
+    "pytest",
+    "rich",
+    "tqdm",
+    "papermodels",
+    "xlwings",
+    "IPython",
+    "ipywidgets",
+    "ipykernel",
+    "jupyterlab",
+    "jupyterlab-mathjax3",
+    "nbconvert",
+    "python-docx",
+]
+
+[project.urls]
+Home = "https://github.com/connorferster/sea_starterkit"
+
+[project.scripts]
+pfse_verify = "sea_starterkit.__main__:check_installs"
