@@ -1,9 +1,8 @@
 # pfse_starterkit
-A Python package that installs all required packages for the StructuralPython Python for Structural Engineers (pfse) course.
+A Python package that installs all required packages for Structural Python core training for Python version >= 3.13.
 
 This installs the following packages:
 
-* streamlit
 * numpy
 * pandas
 * openpyxl
@@ -13,25 +12,26 @@ This installs the following packages:
 * plotly
 * sectionproperties
 * concreteproperties
-* PyNiteFEA
 * pycba
+* PyNiteFEA
 * scipy
 * handcalcs
+* more-itertools
+* pynite_plotly
 * forallpeople
 * pytest
-* ipytest
 * rich
 * tqdm
 * papermodels
 * xlwings
-* black
-* jupyterlab
 * IPython
 * ipywidgets
 * ipykernel
-* jupyterlab-mathjax3 (as an option)
+* jupyterlab
+* jupyterlab-mathjax3
 * nbconvert
-* flit
 * python-docx
-* constable
-* black
+* pynite-tools
+* sectionproperties-tools
+* papermill
+* great-tables
