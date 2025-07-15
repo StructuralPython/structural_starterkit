@@ -21,7 +21,7 @@ dependencies = [
     "sectionproperties>=3.5.0",
     "concreteproperties>=0.6.4",
     "pycba>=0.5.2",
-    "PyNiteFEA>=1.0.1",
+    "PyNiteFEA==1.1.2",
     "scipy",
     "handcalcs",
     "more-itertools",
