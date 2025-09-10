@@ -38,12 +38,13 @@ dependencies = [
     "jupyterlab-mathjax3",
     "nbconvert",
     "python-docx",
-    "pynite-tools>=0.1.0",
+    "pynite-tools>=0.6.4",
     "sectionproperties-tools>=0.2.0",
     "millrun>=0.1.0",
     "jsonchain>=0.1.0",
     "papermill>=2.6.0",
     "great-tables>=0.17.0",
+    "xl-engine>=0.1.1",
 ]
 
 [project.urls]
