@@ -44,6 +44,7 @@ dependencies = [
     "jsonchain>=0.1.0",
     "papermill>=2.6.0",
     "great-tables>=0.17.0",
+    "xl-engine>=0.1.1",
 ]
 
 [project.urls]
