@@ -735,16 +735,16 @@ wheels = [
 
 [[package]]
 name = "jsonchain"
-version = "0.4.1"
+version = "0.4.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deepmerge" },
     { name = "openpyxl" },
     { name = "safer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/88/59/73a9b1e887705786a806a06e2b0a223e11ef706a02e37182b9a1753f6c67/jsonchain-0.4.1.tar.gz", hash = "sha256:2f43dbad0cc21329914c69f0dddf065e9ad2e04da2c4ec276794123692593c7b", size = 18808 }
+sdist = { url = "https://files.pythonhosted.org/packages/0b/a9/615f209f4407dc1ac9193b5e81f7c9b1e960db75f5a9ff044eb6b5733765/jsonchain-0.4.3.tar.gz", hash = "sha256:432ce7ce736a45b591b8e13dbadc4a6ba210c66ffabb897844ea653d84708e35", size = 18895 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b6/96/eb909ffa7545050f50126b3e1f2f1f31ebb0c9d84cd541d14cffa8326daf/jsonchain-0.4.1-py3-none-any.whl", hash = "sha256:2e40cf7dfe952ddca7e0e3901ee0fb4a4841851e658d17933e4f5ea516a8ddce", size = 11778 },
+    { url = "https://files.pythonhosted.org/packages/fe/ae/5a6a8d175c517a73be74b6396718b2d2d3365e783ff6dd4f05d1611a05be/jsonchain-0.4.3-py3-none-any.whl", hash = "sha256:3eee3f9ee420afe585ec3e15377a6566d30c37e4a19c9fa424f10d08709debe5", size = 11859 },
 ]
 
 [[package]]
@@ -2238,7 +2238,7 @@ requires-dist = [
     { name = "ipykernel" },
     { name = "ipython" },
     { name = "ipywidgets" },
-    { name = "jsonchain", specifier = ">=0.1.0" },
+    { name = "jsonchain", specifier = ">=0.4.3" },
     { name = "jupyterlab" },
     { name = "jupyterlab-mathjax3" },
     { name = "lxml" },
