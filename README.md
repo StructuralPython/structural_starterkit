@@ -1,37 +1,42 @@
-# pfse_starterkit
+# structural_starterkit
 A Python package that installs all required packages for Structural Python core training for Python version >= 3.13.
 
-This installs the following packages:
-
-* numpy
-* pandas
-* openpyxl
-* lxml
-* shapely
-* matplotlib
-* plotly
-* sectionproperties
-* concreteproperties
-* pycba
-* PyNiteFEA
-* scipy
-* handcalcs
-* more-itertools
-* pynite_plotly
-* forallpeople
-* pytest
-* rich
-* tqdm
-* papermodels
-* xlwings
-* IPython
-* ipywidgets
-* ipykernel
-* jupyterlab
-* jupyterlab-mathjax3
-* nbconvert
-* python-docx
-* pynite-tools
-* sectionproperties-tools
-* papermill
-* great-tables
+```toml
+dependencies = [
+    "numpy",
+    "pandas",
+    "openpyxl",
+    "lxml",
+    "shapely>=2.0.0",
+    "matplotlib",
+    "plotly",
+    "sectionproperties>=3.5.0",
+    "concreteproperties>=0.6.4",
+    "pycba>=0.5.2",
+    "PyNiteFEA==1.1.2",
+    "scipy",
+    "handcalcs",
+    "more-itertools",
+    "forallpeople",
+    "pytest",
+    "rich",
+    "tqdm",
+    "papermodels",
+    "xlwings",
+    "IPython",
+    "ipywidgets",
+    "ipykernel",
+    "jupyterlab",
+    "jupyterlab-mathjax3",
+    "nbconvert",
+    "python-docx",
+    "pynite-tools>=0.6.4",
+    "sectionproperties-tools>=0.2.0",
+    "millrun>=0.3.0",
+    "jsonchain>=0.5.1",
+    "papermill>=2.6.0",
+    "great-tables>=0.17.0",
+    "xl-engine>=0.4.0",
+    "nb-hideinputs>=0.2.0",
+]
+```
