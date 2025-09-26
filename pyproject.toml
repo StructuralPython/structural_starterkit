@@ -45,6 +45,7 @@ dependencies = [
     "papermill>=2.6.0",
     "great-tables>=0.17.0",
     "xl-engine>=0.4.0",
+    "nb-hideinputs>=0.2.0",
 ]
 
 [project.urls]
