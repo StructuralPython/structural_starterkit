@@ -29,7 +29,7 @@ dependencies = [
     "pytest",
     "rich",
     "tqdm",
-    "papermodels",
+    "papermodels>=0.19.0",
     "xlwings",
     "IPython",
     "ipywidgets",

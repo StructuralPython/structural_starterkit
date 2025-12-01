@@ -537,6 +537,29 @@ wheels = [
 ]
 
 [[package]]
+name = "ezdxf"
+version = "1.4.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "fonttools" },
+    { name = "numpy" },
+    { name = "pyparsing" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6d/ff/e2fea17633a4c04abdf260d53e0d67463b01e11d957b8faaf3b195666e10/ezdxf-1.4.3.tar.gz", hash = "sha256:403adf7ce305877f6c9f3c007fe2e5c5df504dfb797032122abedd7170176764", size = 1816226, upload-time = "2025-10-19T03:48:12.137Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/1d/349f14b5b0282cabaea15be4f6094deca89fc59c35a29fae4bdb1b5e4643/ezdxf-1.4.3-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:5d24bf4db3ad5bc10046a10f0ecf3de619e96cf3ed9afe42c44f00ec6661409c", size = 3539526, upload-time = "2025-10-19T03:51:25.153Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/be/401c736172ec5ef09be23f8ed7a850ff115f64220b4719c041b36fed4f8b/ezdxf-1.4.3-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:096b71bc9e1a9cd425648feaf4b9f560e3256a871f5bdb1be1f064820906c21a", size = 2979824, upload-time = "2025-10-19T03:51:26.272Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/79/fb74c285ddf9fc2c599aa6763fa2d172518cff6a4a172e3f6ee541802ac0/ezdxf-1.4.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:6c0afc6aa7938f959dd6985f42f2617eed77fa35da4cceaf07516fd9591cdccf", size = 2967065, upload-time = "2025-10-19T03:51:28.196Z" },
+    { url = "https://files.pythonhosted.org/packages/72/6b/cbf69705793a4b3376cf312b1c8bb84ad6a90ec57332c55692f3b6b95fe0/ezdxf-1.4.3-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a7cff30c9987eb250bc4d35e494606affb618727c3b660accd68b74709629a41", size = 5771939, upload-time = "2025-10-19T03:55:27.778Z" },
+    { url = "https://files.pythonhosted.org/packages/f5/db/2f69f471744cb827dc8b989ec3eb5253b708bb58c9f6d9464d354f743909/ezdxf-1.4.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e4ccc79f0c375090ac406e3ae0e469451d1f636d1682c8b9a8bb305d92847a33", size = 5769539, upload-time = "2025-10-19T03:55:08.241Z" },
+    { url = "https://files.pythonhosted.org/packages/28/3a/14d6f7cb33c213b03a8ed48e5ee60bf55aff51992a8951f29c97d68d2f0b/ezdxf-1.4.3-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:5949b8c7914feca043409f51209ad7711aa7f0a6254ea36bdf28478829b2fa7e", size = 5737837, upload-time = "2025-10-19T03:55:29.5Z" },
+    { url = "https://files.pythonhosted.org/packages/96/44/de74a6ed02a0ecc9d3fe0c0ba6c302d48ae868b821837a3719f97395c50c/ezdxf-1.4.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:48c3737b786c81b49fbdc82cda75ea38cb133142d214616e190aac6cc3eb2649", size = 5835253, upload-time = "2025-10-19T03:55:09.822Z" },
+    { url = "https://files.pythonhosted.org/packages/1f/09/896ab8e30095007a99682b41d4367503e512178331539827c495844a84e0/ezdxf-1.4.3-cp313-cp313-win_amd64.whl", hash = "sha256:d95cd8dcc6e6051ff9adf6eaed0d055ac464abea23c2a71aaba701dcfe7f49de", size = 2917537, upload-time = "2025-10-19T03:52:32.268Z" },
+    { url = "https://files.pythonhosted.org/packages/65/c9/a3a21eb7fc2c515a73d023052f67ab44c3ba580dfc08a6825fc15cf00cac/ezdxf-1.4.3-py3-none-any.whl", hash = "sha256:19e464aa4525dca3f1dabce165308de7ac262f1122b3c3986320cbec9e8ca6be", size = 1330027, upload-time = "2025-10-19T03:47:33.617Z" },
+]
+
+[[package]]
 name = "faicons"
 version = "0.2.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1165,15 +1188,15 @@ wheels = [
 
 [[package]]
 name = "load-distribution"
-version = "0.1.4"
+version = "0.1.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
     { name = "shapely" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2e/64/c404bc5a2512e46b43e3c012ba3758f9b50f47517c1ad57be66ce9d56825/load_distribution-0.1.4.tar.gz", hash = "sha256:3fd9e4f0f3e05d13cf177f1b0c3205f4794cbfd49887801ee1d2f1e5feaec143", size = 15835, upload-time = "2025-08-28T20:36:18.887Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/97/41/d83bfc1e97aa0b6817627404f385e8b58883eba41d08b56aea7727efd5ab/load_distribution-0.1.7.tar.gz", hash = "sha256:4bde06c7c1259502465e1bef9b999aaf8d3c032af54481b56fc0d669eac42c34", size = 15904, upload-time = "2025-10-14T16:27:59.608Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/47/72/53de6becc8acb47b3a8edcb66928dd7e184f86a420c88eac87a2ef05904e/load_distribution-0.1.4-py3-none-any.whl", hash = "sha256:283fdc1fb6cddbfd71d459f406e3735ec5a016e553228f38a98e5f7cffd2760f", size = 17207, upload-time = "2025-08-28T20:36:17.801Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/d6/35c0eef211a9453ddd854af4c78825d423255001293d77cc3f6d2f892a94/load_distribution-0.1.7-py3-none-any.whl", hash = "sha256:1504e50e7f7956fc5295d1b38e3cff6966105ba20058df8848e2769ed1d873b2", size = 17274, upload-time = "2025-10-14T16:27:58.756Z" },
 ]
 
 [[package]]
@@ -1616,11 +1639,11 @@ wheels = [
 
 [[package]]
 name = "papermodels"
-version = "0.14.2"
+version = "0.19.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colour" },
-    { name = "forallpeople" },
+    { name = "ezdxf" },
     { name = "load-distribution" },
     { name = "matplotlib" },
     { name = "networkx" },
@@ -1628,8 +1651,6 @@ dependencies = [
     { name = "pandas" },
     { name = "parse" },
     { name = "pikepdf" },
-    { name = "pycba" },
-    { name = "pynitefea" },
     { name = "pytest" },
     { name = "rich" },
     { name = "scikit-spatial" },
@@ -1637,9 +1658,9 @@ dependencies = [
     { name = "textalloc" },
     { name = "tomli-w" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/04/2a/51aafcf7dcb5fafff19f7f366460eebe6b3c296563535582d01315f1da0a/papermodels-0.14.2.tar.gz", hash = "sha256:220a730036388f3461b2833165b98392c24529ec7d75be9888e29c40dcca962b", size = 52537, upload-time = "2025-09-25T22:44:29.588Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/28/67/4ee98172f75f027b3084d5dad70c1d3aac4ac3764dbfbb01d42c43ba2521/papermodels-0.19.0.tar.gz", hash = "sha256:881571af28d7f3c4ffe8e789d8bec8f431688d93b3bc2a75daa6d356d9fac83f", size = 58933, upload-time = "2025-11-27T23:53:16.774Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/50/e6/45ab47e6d28ed305045b0c8b9c2c0d7ab7af22cfd1355770c87251c63bad/papermodels-0.14.2-py2.py3-none-any.whl", hash = "sha256:1f4db4319b36adf05999b3e3a710d7814d15ce61158203e07602084da7909663", size = 58231, upload-time = "2025-09-25T22:44:28.233Z" },
+    { url = "https://files.pythonhosted.org/packages/4e/a7/d8d34ba2fc0ea2f670b33f5fa8e1cd8989b0ccea7946a89cce7a498bd20f/papermodels-0.19.0-py2.py3-none-any.whl", hash = "sha256:011124c08553914d3745a2f71732c6492473a2a56b10531a91084cd6777e945f", size = 65074, upload-time = "2025-11-27T23:53:15.44Z" },
 ]
 
 [[package]]
@@ -2652,7 +2673,7 @@ requires-dist = [
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "papermill", specifier = ">=2.6.0" },
-    { name = "papermodels" },
+    { name = "papermodels", specifier = ">=0.19.0" },
     { name = "plotly" },
     { name = "pycba", specifier = ">=0.5.2" },
     { name = "pynite-tools", specifier = ">=0.6.7" },
